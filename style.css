@@ -1,42 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 body{
-    margin:0;
-    
-}
-.header{
-    color:white;
-    height: 40px;
-    margin:100px;
-    margin-top:10px;
-    border-bottom:2px dotted rgb(251, 253, 253);
-}
-.footer{
-    
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: white;
-    color: black;
+    margin: 0;
+    padding: 0;
     text-align: center;
-}
-.image {
-    margin:10px;
-    width:45%;
-    height:50%;
-    justify-items: center;
-    border-radius: 50%;
-    -webkit-animation:spin 20s linear infinite;
-    -moz-animation:spin 20s linear infinite;
-    animation:spin 20s linear infinite;
+   font-family: 'Shadows Into Light', cursive;
 }
 
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+h1{
+    color:rgb(165, 12, 179);
+    font-size: 8vh;
+    text-shadow: 1px 1px 2px rgb(255, 0, 212), 0 0 1em rgb(204, 0, 255), 0 0 0.2em rgb(83, 11, 74);
+}
 
-@media only screen and (min-width: 1100px)
-{
-    .image{
-        width:30%;
-    }
+button{
+    outline: none;
+    background-color:#620d6d;
+    border-radius: 10px;
+    font-size:17px;
+    margin:20px;
+    color: white;
+   font-family: 'Shadows Into Light', cursive;
+}
+textarea {
+    outline: none;
+    border-radius: 10px;
+    width: 50%;
+    height: 12vh;
+    display: block;
+    margin:auto;
+    padding: 1rem;
+   font-family: 'Shadows Into Light', cursive;
+}
+
+#output {
+    border-radius: 10px;
+    border: 0.5px solid rgb(165, 12, 179);
+    height: 12vh;
+    width: 50%;  
+    box-shadow: 0 0 10px 1px rgb(165, 12, 179);  
+    margin:auto;
+    color:white;
+    margin-bottom: 50px;
+    padding: 1rem;
+}
+
+.footer{
+    display: block;
+    min-height:20px;
+    text-align: center;
+    background-color:#3d062f ;
+    margin-bottom: 0;
+    color:white;
+    font-size: 17px;
+    justify-content: center;
+    padding: 5px;
+    font-family: 'Shadows Into Light', cursive;
+
 }
